@@ -21,6 +21,15 @@
 		A67DBE8F18E557AF00E71246 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A67DBE7118E557AF00E71246 /* UIKit.framework */; };
 		A67DBE9718E557AF00E71246 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A67DBE9518E557AF00E71246 /* InfoPlist.strings */; };
 		A67DBE9918E557AF00E71246 /* RapperTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A67DBE9818E557AF00E71246 /* RapperTests.m */; };
+		A67DBEA618E5582700E71246 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A67DBEA518E5582700E71246 /* BaseViewController.m */; };
+		A6893526191275E90006B1C0 /* TRPreRecordingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6893525191275E90006B1C0 /* TRPreRecordingViewController.m */; };
+		A6893529191278520006B1C0 /* RAPPR_SampleTrack.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A6893528191278520006B1C0 /* RAPPR_SampleTrack.mp3 */; };
+		A689352B191278700006B1C0 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A689352A191278700006B1C0 /* AVFoundation.framework */; };
+		A68C60B1199A5C1200F256CB /* TRMixierManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A68C60B0199A5C1200F256CB /* TRMixierManager.m */; };
+		A68C60B3199A5C5400F256CB /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A68C60B2199A5C5400F256CB /* AudioToolbox.framework */; };
+		A6ABB27C1927745A00F70A6D /* TRRapListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6ABB27B1927745A00F70A6D /* TRRapListViewController.m */; };
+		A6E79586191DF4E2006CEFC7 /* TRRecordingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6E79585191DF4E2006CEFC7 /* TRRecordingViewController.m */; };
+		A6E79589191FBA15006CEFC7 /* TREditRecordingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6E79588191FBA15006CEFC7 /* TREditRecordingViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +62,21 @@
 		A67DBE9418E557AF00E71246 /* RapperTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RapperTests-Info.plist"; sourceTree = "<group>"; };
 		A67DBE9618E557AF00E71246 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		A67DBE9818E557AF00E71246 /* RapperTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RapperTests.m; sourceTree = "<group>"; };
+		A67DBEA418E5582700E71246 /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		A67DBEA518E5582700E71246 /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		A6893524191275E90006B1C0 /* TRPreRecordingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TRPreRecordingViewController.h; sourceTree = "<group>"; };
+		A6893525191275E90006B1C0 /* TRPreRecordingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TRPreRecordingViewController.m; sourceTree = "<group>"; };
+		A6893528191278520006B1C0 /* RAPPR_SampleTrack.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = RAPPR_SampleTrack.mp3; sourceTree = "<group>"; };
+		A689352A191278700006B1C0 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		A68C60AF199A5C1200F256CB /* TRMixierManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TRMixierManager.h; sourceTree = "<group>"; };
+		A68C60B0199A5C1200F256CB /* TRMixierManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TRMixierManager.m; sourceTree = "<group>"; };
+		A68C60B2199A5C5400F256CB /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		A6ABB27A1927745A00F70A6D /* TRRapListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TRRapListViewController.h; sourceTree = "<group>"; };
+		A6ABB27B1927745A00F70A6D /* TRRapListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TRRapListViewController.m; sourceTree = "<group>"; };
+		A6E79584191DF4E2006CEFC7 /* TRRecordingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TRRecordingViewController.h; sourceTree = "<group>"; };
+		A6E79585191DF4E2006CEFC7 /* TRRecordingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TRRecordingViewController.m; sourceTree = "<group>"; };
+		A6E79587191FBA15006CEFC7 /* TREditRecordingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TREditRecordingViewController.h; sourceTree = "<group>"; };
+		A6E79588191FBA15006CEFC7 /* TREditRecordingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TREditRecordingViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +84,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A68C60B3199A5C5400F256CB /* AudioToolbox.framework in Frameworks */,
+				A689352B191278700006B1C0 /* AVFoundation.framework in Frameworks */,
 				A67DBE7018E557AF00E71246 /* CoreGraphics.framework in Frameworks */,
 				A67DBE7218E557AF00E71246 /* UIKit.framework in Frameworks */,
 				A67DBE6E18E557AF00E71246 /* Foundation.framework in Frameworks */,
@@ -101,6 +127,8 @@
 		A67DBE6C18E557AF00E71246 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				A68C60B2199A5C5400F256CB /* AudioToolbox.framework */,
+				A689352A191278700006B1C0 /* AVFoundation.framework */,
 				A67DBE6D18E557AF00E71246 /* Foundation.framework */,
 				A67DBE6F18E557AF00E71246 /* CoreGraphics.framework */,
 				A67DBE7118E557AF00E71246 /* UIKit.framework */,
@@ -112,6 +140,10 @@
 		A67DBE7318E557AF00E71246 /* Rapper */ = {
 			isa = PBXGroup;
 			children = (
+				A68C60AE199A5A8500F256CB /* Manager */,
+				A6893527191277FE0006B1C0 /* Resources */,
+				A6893523191275890006B1C0 /* ViewController */,
+				A67DBEA218E557E900E71246 /* BaseViewController */,
 				A67DBE7C18E557AF00E71246 /* TRAppDelegate.h */,
 				A67DBE7D18E557AF00E71246 /* TRAppDelegate.m */,
 				A67DBE7F18E557AF00E71246 /* Main.storyboard */,
@@ -150,6 +182,47 @@
 				A67DBE9518E557AF00E71246 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A67DBEA218E557E900E71246 /* BaseViewController */ = {
+			isa = PBXGroup;
+			children = (
+				A67DBEA418E5582700E71246 /* BaseViewController.h */,
+				A67DBEA518E5582700E71246 /* BaseViewController.m */,
+			);
+			path = BaseViewController;
+			sourceTree = "<group>";
+		};
+		A6893523191275890006B1C0 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				A6893524191275E90006B1C0 /* TRPreRecordingViewController.h */,
+				A6893525191275E90006B1C0 /* TRPreRecordingViewController.m */,
+				A6E79584191DF4E2006CEFC7 /* TRRecordingViewController.h */,
+				A6E79585191DF4E2006CEFC7 /* TRRecordingViewController.m */,
+				A6E79587191FBA15006CEFC7 /* TREditRecordingViewController.h */,
+				A6E79588191FBA15006CEFC7 /* TREditRecordingViewController.m */,
+				A6ABB27A1927745A00F70A6D /* TRRapListViewController.h */,
+				A6ABB27B1927745A00F70A6D /* TRRapListViewController.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		A6893527191277FE0006B1C0 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A6893528191278520006B1C0 /* RAPPR_SampleTrack.mp3 */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		A68C60AE199A5A8500F256CB /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				A68C60AF199A5C1200F256CB /* TRMixierManager.h */,
+				A68C60B0199A5C1200F256CB /* TRMixierManager.m */,
+			);
+			path = Manager;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,6 +304,7 @@
 			files = (
 				A67DBE8618E557AF00E71246 /* Images.xcassets in Resources */,
 				A67DBE7818E557AF00E71246 /* InfoPlist.strings in Resources */,
+				A6893529191278520006B1C0 /* RAPPR_SampleTrack.mp3 in Resources */,
 				A67DBE8118E557AF00E71246 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -250,8 +324,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A6ABB27C1927745A00F70A6D /* TRRapListViewController.m in Sources */,
 				A67DBE7E18E557AF00E71246 /* TRAppDelegate.m in Sources */,
+				A68C60B1199A5C1200F256CB /* TRMixierManager.m in Sources */,
+				A6893526191275E90006B1C0 /* TRPreRecordingViewController.m in Sources */,
+				A67DBEA618E5582700E71246 /* BaseViewController.m in Sources */,
+				A6E79589191FBA15006CEFC7 /* TREditRecordingViewController.m in Sources */,
 				A67DBE7A18E557AF00E71246 /* main.m in Sources */,
+				A6E79586191DF4E2006CEFC7 /* TRRecordingViewController.m in Sources */,
 				A67DBE8418E557AF00E71246 /* TRViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -457,6 +537,7 @@
 				A67DBE9E18E557AF00E71246 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A67DBE9F18E557AF00E71246 /* Build configuration list for PBXNativeTarget "RapperTests" */ = {
 			isa = XCConfigurationList;
@@ -465,6 +546,7 @@
 				A67DBEA118E557AF00E71246 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
